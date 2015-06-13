@@ -22,7 +22,7 @@ The method `run_analysis()` is available in the R script called `run_analysis.R`
 
 * Unzip it in your working directory.
 
-The data linked to represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+The data linked represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</a>
 
@@ -36,11 +36,11 @@ A general overview can be found below :
 	result <- run_analysis()
 
 ##  Cookbook
-This cookbook explain how the run_analysis method proceeds to return the required dataset.
+This cookbook explain how the `run_analysis()` method proceeds to return the required dataset.
 	
-* Read "activity_labels.txt" file which will be used to label the subject activity for each measure
+* Read `activity_labels.txt` file which will be used to label the subject activity for each measure
 
-* Read "features.txt" file which will be used to label the measure columns
+* Read `features.txt` file which will be used to label the measure columns
 
 * Prepare a tidy dataset for test measures by using the internal method prepare_dataset. See Prepare dataset cookbook below.
 
